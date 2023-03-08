@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EXO 9</title>
-</head>
-<body>
-    
-    <div name="lesdivs" class="lesdivs">Coucou</div>
-    <div name="lesdivs" class="lesdivs">Coucou</div>
-    <div name="lesdivs" class="lesdivs">Coucou</div>
-</body>
-<script src='js9.js'></script>
-<script>modifierDivs();</script>
+    <title>Exemple de boutons pour appeler des fonctions</title>
+  </head>
+  <body>
+    <div class="lesdivs"name="lesdivs">Div 1</div>
+    <div class="lesdivs"name="lesdivs">Div 2</div>
+    <div class="lesdivs"name="lesdivs">Div 3</div>
+    <br> 
+    <button onclick="modifierDivsName()">Modifier avec Name</button>
+    <button onclick="modifierDivsTag()">Modifier avec TagName</button>
+    <button onclick="modifierDivsClass()">Modifier avec ClassName</button>
+
+    <script src='js9.js'>
+    </script>
+  </body>
 </html>
